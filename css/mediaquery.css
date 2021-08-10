@@ -1,0 +1,57 @@
+
+@media screen and (max-width: 768px) {
+
+    .logo button {
+        display: block;
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 50px;
+        color: #fff;
+    }
+
+    .nav-active {
+        display: none;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    #main {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .main-contain {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .main-contain img {
+        width: 100%;
+        border: none;
+    }
+
+    .main-contain p {
+        padding: 0;
+        text-align: center;
+        background: none;
+    }
+
+    .aside {
+        width: 100%;
+    }
+
+    .aside p {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+    .responsive {
+        width: 100%;
+    }
+}
